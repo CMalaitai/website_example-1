@@ -17,7 +17,7 @@
         'nav nav nav'
         'slideshow slideshow slideshow'
         'side-image information information'
-        'academic sports arts'
+        'academics sports arts'
         'footer footer footer';
     padding-left: 1em;
     padding-right: 1em;
@@ -45,8 +45,8 @@
     padding: 30px;
 }
 
-.academic{
-    grid-area: academic;
+.academics{
+    grid-area: academics;
     border: 1px solid;
     padding: 30px;
     text-align: center;
