@@ -94,3 +94,35 @@ li a{
 li a:hover{
     background-color: lightblue;
 }
+
+.picture{
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 1000px){
+    html{
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    html{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "nav"
+        "slideshow"
+        "side-image"
+        "information"
+        "academic"
+        "sports"
+        "arts"
+        "footer";
+    }
+}
